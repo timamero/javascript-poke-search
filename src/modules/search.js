@@ -25,7 +25,6 @@ searchContainer.appendChild(form)
 let pokemonName = ''
 const submitHandler = (event) => {
     event.preventDefault()
-    console.log('submitted')
     pokemonName = event.target.elements.pokemonName.value
 }
 

@@ -89,7 +89,7 @@ h1 {
     transform: scale(0.8);
 }
 
-.results-content {
+.results-content, .loading-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
